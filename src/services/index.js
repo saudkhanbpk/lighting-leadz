@@ -1,0 +1,6 @@
+import baseUrl from "./Baseurl";
+import axios from "axios";
+
+export default axios.create({
+  baseURL: baseUrl,
+})

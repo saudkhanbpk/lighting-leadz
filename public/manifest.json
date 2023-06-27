@@ -9,9 +9,7 @@
     "alarms",
     "tabs",
     "scripting",
-    "activeTab",
-    "https://mail.google.com/*"
-  ],
+    "activeTab"  ],
   "host_permissions": [
     "<all_urls>"
   ],
