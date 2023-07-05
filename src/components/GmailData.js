@@ -3,7 +3,6 @@ import { automation } from './../services/GmailAutomation'
 function GmailData() {
   const [loading, setLoading] = useState(true)
 
-
   const getAutomation = () => {
     automation()
       .then((res) => {
